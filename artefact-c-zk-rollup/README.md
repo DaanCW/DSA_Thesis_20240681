@@ -18,7 +18,7 @@ state, sequencer, Groth16 proving, and L1 settlement.
   valid validity proof. Deployed on a local Hardhat EVM — the same L1
   environment family as Artefact A, so gas is directly comparable.
 - **Sequencer** (`scripts/lib/`): builds distribution batches, generates
-  proofs (~14 s each on a laptop), publishes the share vector as calldata for
+  proofs (~3.4S s each on a laptop), publishes the share vector as calldata for
   data availability, and submits batches.
 
 ## Documented simplifications (thesis §, trust model)
