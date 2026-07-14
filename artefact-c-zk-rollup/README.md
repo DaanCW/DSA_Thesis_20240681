@@ -18,10 +18,10 @@ state, sequencer, Groth16 proving, and L1 settlement.
   valid validity proof. Deployed on a local Hardhat EVM — the same L1
   environment family as Artefact A, so gas is directly comparable.
 - **Sequencer** (`scripts/lib/`): builds distribution batches, generates
-  proofs (~3.4S s each on a laptop), publishes the share vector as calldata for
+  proofs (~3.4 s each on a laptop), publishes the share vector as calldata for
   data availability, and submits batches.
 
-## Documented simplifications (thesis §, trust model)
+## Documented simplifications (thesis §3.4, trust model)
 
 Trusted sequencer (no in-circuit signatures, eligibility, or range checks on
 the packed lanes); calldata published but not cryptographically bound to the
@@ -33,15 +33,12 @@ proofs are all rejected on-chain).
 ## Run
 
 ```bash
+./setup.sh                                # one-time, ~45 min: circuit build,
+                                          # ceremony, and proving key
 npm install
 npx hardhat run scripts/measure.js        # nine investor counts -> gas-results-c.json
 npx hardhat run scripts/soundness-test.js # negative tests
 ```
 
-`build/` ships with the completed setup (proving key, verification key,
-wasm, prepared ptau). To reproduce the entire ceremony from scratch instead:
-Before first run, generate the circuit build and proving key: ./setup.sh (~45 min, one-time). This reproduces the full ceremony and produces a functionally identical proving key; gas results are unaffected.
-`./setup.sh` (~45 min; produces a different but functionally identical
-proving key, gas results are unaffected).
-
-
+`setup.sh` reproduces the full ceremony from scratch and produces a
+functionally identical proving key; gas results are unaffected.
