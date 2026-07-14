@@ -1,4 +1,4 @@
-# Thesis Artefacts — Blockchain Architectures for Tokenized Retail Renewable-Energy Investment
+# Thesis Artefacts: Blockchain Architectures for Tokenized Retail Renewable-Energy Investment
 
 MSc thesis, NOVA Information Management School (NOVA IMS).
 Author: [Your full name] · Supervisor: Ian James Scott
