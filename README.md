@@ -5,8 +5,8 @@ Author: [Your full name] · Supervisor: Ian James Scott
 
 This repository contains the three software artefacts developed for the thesis
 and the comparative analysis of their measurements. The artefacts implement the
-same workload — tokenized investor onboarding and quarterly revenue
-distribution for a renewable-energy asset — at three increasing levels of
+same workload, tokenized investor onboarding and quarterly revenue
+distribution for a renewable-energy asset, at three increasing levels of
 infrastructure control:
 
 | Folder | Artefact | Description |
