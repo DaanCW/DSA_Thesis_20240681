@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-05-04T08:08:05.658Z",
+  "artefact": "A",
+  "scenario": 1,
+  "description": "Conventional smart contracts — fungible token, quarterly distribution",
+  "distribution": [
+    {
+      "investors": 1,
+      "totalGas": 62245,
+      "gasPerInvestor": 62245
+    },
+    {
+      "investors": 5,
+      "totalGas": 138629,
+      "gasPerInvestor": 27726
+    },
+    {
+      "investors": 10,
+      "totalGas": 234113,
+      "gasPerInvestor": 23411
+    },
+    {
+      "investors": 20,
+      "totalGas": 425106,
+      "gasPerInvestor": 21255
+    },
+    {
+      "investors": 50,
+      "totalGas": 998070,
+      "gasPerInvestor": 19961
+    },
+    {
+      "investors": 100,
+      "totalGas": 1953057,
+      "gasPerInvestor": 19531
+    },
+    {
+      "investors": 200,
+      "totalGas": 3863101,
+      "gasPerInvestor": 19316
+    },
+    {
+      "investors": 400,
+      "totalGas": 7683705,
+      "gasPerInvestor": 19209
+    },
+    {
+      "investors": 800,
+      "totalGas": 15326777,
+      "gasPerInvestor": 19158
+    }
+  ],
+  "onboarding": [
+    {
+      "investors": 1,
+      "avgRegisterGas": 49274,
+      "avgMintGas": 72420,
+      "avgTotalGas": 121694
+    },
+    {
+      "investors": 5,
+      "avgRegisterGas": 49272,
+      "avgMintGas": 58738,
+      "avgTotalGas": 108010
+    },
+    {
+      "investors": 10,
+      "avgRegisterGas": 49272,
+      "avgMintGas": 57028,
+      "avgTotalGas": 106300
+    },
+    {
+      "investors": 20,
+      "avgRegisterGas": 49273,
+      "avgMintGas": 56174,
+      "avgTotalGas": 105447
+    },
+    {
+      "investors": 50,
+      "avgRegisterGas": 49273,
+      "avgMintGas": 55661,
+      "avgTotalGas": 104934
+    },
+    {
+      "investors": 100,
+      "avgRegisterGas": 49273,
+      "avgMintGas": 55490,
+      "avgTotalGas": 104763
+    },
+    {
+      "investors": 200,
+      "avgRegisterGas": 49273,
+      "avgMintGas": 55405,
+      "avgTotalGas": 104678
+    },
+    {
+      "investors": 400,
+      "avgRegisterGas": 49273,
+      "avgMintGas": 55362,
+      "avgTotalGas": 104635
+    },
+    {
+      "investors": 800,
+      "avgRegisterGas": 49273,
+      "avgMintGas": 55341,
+      "avgTotalGas": 104614
+    }
+  ]
+}

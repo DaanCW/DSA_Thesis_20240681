@@ -1,0 +1,105 @@
+{
+  "artefact": "C (from-scratch ZK-rollup, local L1 settlement)",
+  "timestamp": "2026-07-13T19:06:06.440Z",
+  "distribution": [
+    {
+      "investors": 1,
+      "totalGas": 287788,
+      "gasPerInvestor": 287788,
+      "calldataBytes": 420,
+      "provingTimeMs": 3979,
+      "deployGasVerifier": 425170,
+      "deployGasRollup": 694945,
+      "newRoot": "0x0d2063479b1350bfb3515f8fcd1fb5ac88c95b610a98bd975e5efd443a9ac5fd",
+      "txHash": "0x5e7c90b7a955c51bb7f1878179336a31537d368d8a8fe8c67379cb2eb1d6ba9a"
+    },
+    {
+      "investors": 5,
+      "totalGas": 288588,
+      "gasPerInvestor": 57718,
+      "calldataBytes": 548,
+      "provingTimeMs": 3423,
+      "deployGasVerifier": 425170,
+      "deployGasRollup": 694945,
+      "newRoot": "0x0d9883e6cde8ac22c04ebf96b9963436519f9687119d93e83170e4814801aff9",
+      "txHash": "0x9ba85a7a88bcb0613cc7eafd1d45321c877ca7ab1f09192b1731f1f85e35ac56"
+    },
+    {
+      "investors": 10,
+      "totalGas": 289600,
+      "gasPerInvestor": 28960,
+      "calldataBytes": 708,
+      "provingTimeMs": 3337,
+      "deployGasVerifier": 425170,
+      "deployGasRollup": 694945,
+      "newRoot": "0x124a2d39dec855502975acab93430bc84ee62a139ccfee68e3daf98e2f383eb4",
+      "txHash": "0x026683020e3a7730462b320ecf5033a8d89e57b4aa0565c80929a2d266736076"
+    },
+    {
+      "investors": 20,
+      "totalGas": 291360,
+      "gasPerInvestor": 14568,
+      "calldataBytes": 1028,
+      "provingTimeMs": 3470,
+      "deployGasVerifier": 425170,
+      "deployGasRollup": 694945,
+      "newRoot": "0x2b07fe07e5dd1337343ef1427d791aa87b73df103ea6b66e16c52e7514d65016",
+      "txHash": "0x317191826fb0bb44c2fcd34a8f4b58899681db830fcf66facebc00263ef6ed2c"
+    },
+    {
+      "investors": 50,
+      "totalGas": 297000,
+      "gasPerInvestor": 5940,
+      "calldataBytes": 1988,
+      "provingTimeMs": 3409,
+      "deployGasVerifier": 425170,
+      "deployGasRollup": 694945,
+      "newRoot": "0x1fd2ca7fe5fb2b15b104727ad7134bf9e57517b0caf548ec835e8a6e3ece5840",
+      "txHash": "0xfe8edf6b57f93d5f705887fe7a9d2871d1c47881b4c97ee6c04abf9264d299cf"
+    },
+    {
+      "investors": 100,
+      "totalGas": 306388,
+      "gasPerInvestor": 3064,
+      "calldataBytes": 3588,
+      "provingTimeMs": 3380,
+      "deployGasVerifier": 425170,
+      "deployGasRollup": 694945,
+      "newRoot": "0x145b746366df3575698832439b912969398629b50a6d30b59f6f1a645e0c8611",
+      "txHash": "0xcd2cbc5ac929a3f8e1c7ac0b40905e73638ff9a4e54baa364c189579a044e9e6"
+    },
+    {
+      "investors": 200,
+      "totalGas": 327600,
+      "gasPerInvestor": 1638,
+      "calldataBytes": 6788,
+      "provingTimeMs": 3383,
+      "deployGasVerifier": 425170,
+      "deployGasRollup": 694945,
+      "newRoot": "0x0e03290d63ebf3c180a2befd5a9081330efcec4fcd86fca05089f44fcf094b5a",
+      "txHash": "0x3fc192771e7555fa4dc526d8f3826a240855dd58adde3186932fb3705aa0c181"
+    },
+    {
+      "investors": 400,
+      "totalGas": 367612,
+      "gasPerInvestor": 919,
+      "calldataBytes": 13188,
+      "provingTimeMs": 3619,
+      "deployGasVerifier": 425170,
+      "deployGasRollup": 694945,
+      "newRoot": "0x05579c5c149185be55eed6f12826a949ef5f3a5b250588499cc7062190c380b6",
+      "txHash": "0xcfa103506081e9ade1da947bf24234346f162373148b60cc5da0e951698c1fbc"
+    },
+    {
+      "investors": 800,
+      "totalGas": 447612,
+      "gasPerInvestor": 560,
+      "calldataBytes": 25988,
+      "provingTimeMs": 3393,
+      "deployGasVerifier": 425170,
+      "deployGasRollup": 694933,
+      "newRoot": "0x17137ebf8b68b8d10bcf8570ac4d436616d91e8897ad25d37a246c27c16a6a9b",
+      "txHash": "0xab69feff8c4a8f4dd35f41305c4a51a27a11fa30fe6a49453c54b8c97e349b7c"
+    }
+  ]
+}

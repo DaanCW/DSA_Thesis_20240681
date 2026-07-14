@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-06-27T19:19:49.259Z",
+  "artefact": "B",
+  "scenario": 1,
+  "description": "ZK rollup smart contracts — fungible token, quarterly distribution",
+  "network": "zkSync Era Sepolia Testnet",
+  "deployment": {
+    "investorRegistry": {
+      "gas": 126652,
+      "address": "0x2e908E1Ef4E9ad13b51D83bdfD43ed8F7C079B36"
+    },
+    "renewableToken": {
+      "gas": 153367,
+      "address": "0x27E58b42f2CEd23acEECAc107f5ACc73ae86D9f5"
+    },
+    "revenueDistributor": {
+      "gas": 162178,
+      "address": "0xEd583B79e19eC58262d43b4ED02E158B563A9778"
+    }
+  },
+  "onboarding": [
+    {
+      "investors": 10,
+      "avgRegisterGas": 86126,
+      "avgMintGas": 87507,
+      "avgTotalGas": 173633
+    },
+    {
+      "investors": 1,
+      "avgRegisterGas": 86126,
+      "avgMintGas": 97445,
+      "avgTotalGas": 183571
+    },
+    {
+      "investors": 5,
+      "avgRegisterGas": 86126,
+      "avgMintGas": 88626,
+      "avgTotalGas": 174752
+    },
+    {
+      "investors": 10,
+      "avgRegisterGas": 86126,
+      "avgMintGas": 87507,
+      "avgTotalGas": 173633
+    },
+    {
+      "investors": 20,
+      "avgRegisterGas": 86126,
+      "avgMintGas": 86948,
+      "avgTotalGas": 173074
+    },
+    {
+      "investors": 50,
+      "avgRegisterGas": 86126,
+      "avgMintGas": 86612,
+      "avgTotalGas": 172738
+    },
+    {
+      "investors": 100,
+      "avgRegisterGas": 84337,
+      "avgMintGas": 84875,
+      "avgTotalGas": 169212
+    },
+    {
+      "investors": 200,
+      "avgRegisterGas": 83990,
+      "avgMintGas": 83939,
+      "avgTotalGas": 167929
+    },
+    {
+      "investors": 400,
+      "avgRegisterGas": 83990,
+      "avgMintGas": 83918,
+      "avgTotalGas": 167908
+    },
+    {
+      "investors": 800,
+      "avgRegisterGas": 83990,
+      "avgMintGas": 83907,
+      "avgTotalGas": 167897
+    }
+  ],
+  "distribution": [
+    {
+      "investors": 1,
+      "totalGas": 103797,
+      "gasPerInvestor": 103797,
+      "txHash": "0xee5c32c2fa300abe8e25b1a150611060a48efcbbe3bb12cbbb0ba24f128bce80",
+      "calldataBytes": 100,
+      "gasPerPubdata": null
+    },
+    {
+      "investors": 5,
+      "totalGas": 165618,
+      "gasPerInvestor": 33124,
+      "txHash": "0x4a0352c7d78770b29ce052085f09dc71c79e485389eabe869cfbeb2c93db9af7",
+      "calldataBytes": 228,
+      "gasPerPubdata": null
+    },
+    {
+      "investors": 10,
+      "totalGas": 214459,
+      "gasPerInvestor": 21446,
+      "txHash": "0xfa26bbd8a2dbc01d5ca4dc91354b84f823bfb36caf3c675ec5149caba72b6f88",
+      "calldataBytes": 388,
+      "gasPerPubdata": null
+    },
+    {
+      "investors": 20,
+      "totalGas": 342530,
+      "gasPerInvestor": 17127,
+      "txHash": "0xc25673b4a0aa4a8b213647f577d14545a7387c562a92a106ce8d83e272631724",
+      "calldataBytes": 708,
+      "gasPerPubdata": null
+    },
+    {
+      "investors": 50,
+      "totalGas": 781546,
+      "gasPerInvestor": 15631,
+      "txHash": "0x529818db27b6fd001ef93bb03af214677ca09bdfe1708427f971999f63fb9590",
+      "calldataBytes": 1668,
+      "gasPerPubdata": null
+    },
+    {
+      "investors": 100,
+      "totalGas": 1639886,
+      "gasPerInvestor": 16399,
+      "txHash": "0x49370f27eb6d975eb958deae3536799b8190e57d422822eff28672e7653cfb04",
+      "calldataBytes": 3268,
+      "gasPerPubdata": null
+    },
+    {
+      "investors": 200,
+      "totalGas": 2434559,
+      "gasPerInvestor": 12173,
+      "txHash": "0xf3cecd382132c951266be775feb27fa413555e49b272b4d5545a2dde63f48fbd",
+      "calldataBytes": 6468,
+      "gasPerPubdata": null
+    },
+    {
+      "investors": 400,
+      "totalGas": 4787638,
+      "gasPerInvestor": 11969,
+      "txHash": "0xd4d9c82d52ad275e5556c539c27a0e4dc649b35eae9aa39725974ba503901190",
+      "calldataBytes": 12868,
+      "gasPerPubdata": null
+    },
+    {
+      "investors": 800,
+      "totalGas": 9493796,
+      "gasPerInvestor": 11867,
+      "txHash": "0xbbedf27d231d59dafb86d94cf6aaf3a6584da490c75571d25680cee58f5bc52d",
+      "calldataBytes": 25668,
+      "gasPerPubdata": null
+    }
+  ]
+}
